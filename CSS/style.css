@@ -1,10 +1,108 @@
+/* fonction d'animation, n'oubliez pas de prefixer ! */
+@keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+
+@keyframes timeliner {
+	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
+	20%, 45%, 70%, 90%		{ width: 640px;	}
+}
+
+@keyframes figcaptionner {
+	0%, 25%, 50%, 75%, 100%						{ bottom: -55px;	}
+	5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%		{ bottom: 5px;		}
+}
+
+/*Parametre de base*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#Content_container{
+    margin: auto;
+    max-width: 1400px;
+}
+
+/*Parametre du header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+#logo{
+    padding-left: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.HR_logo{
+    width: 100%;
+    height: 100%;
+}
+
+.nav_bar_list{
+    display: flex;
+    list-style: none;
+    padding-right: 25px;
+}
+
+.nav_bar_list li{
+    padding: 20px;
+}
+
+.nav_bar_list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+/*Parametre du footer*/
+footer,.footer_items,.footer_credit{
+    display: flex;
+}
+
 footer{
     background-color: black;
     color: white;
     text-decoration: none;
+    flex-direction: column;
 }
 
 footer div a {
     text-decoration: none;
     color: white;
+}
+
+.footer_items{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact,.about,#footer_logo{
+    width: auto;
+    height: auto;
+}
+
+.about,.contact{
+    font-size: 25px;
+}
+
+.HR_footer_logo{
+    width: 10%;
+    height: 10%;
+}
+
+.footer_credit{
+    justify-content: center;
+    align-content: center;
 }
