@@ -1,13 +1,12 @@
 [
     {
-      "name": "Molecule Man",
-      "age": 29,
-      "secretIdentity": "Dan Jukes",
-      "powers": [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
-      ]
+      "logo": "Molecule Man",
+      "title": 29,
+      "img1": "Dan Jukes",
+      "description1": "img1",
+      "img2": "img2",
+      "description2":"desc2",
+      "link":"link"
     },
     {
       "name": "img/1.jpg",
