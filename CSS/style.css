@@ -65,25 +65,41 @@ header{
     font-size: 25px;
 }
 
+/*Parametre Main*/
+.main-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-title h1{
+  padding: 25px;
+  font-size: 40px;
+  font-weight: bolder;
+  border: solid 1px;
+  border-color: #070707}
+
 /*Parametre onglet*/
 .tabs {
-    background-color: #070707;
+    background-color: white;
     max-width: 90%;
     margin: 100px auto 0;
     border-radius: 10px;
-    border: 1px solid #ffffff3e;
-    color: #b7b2b2;
+    border: 1px solid black;
+    color: black;
     display: grid;
     grid-template-rows: min-content 1fr;
   }
   .tabs-btn-container {
     display: flex;
-    border-bottom: 1px solid #ffffff3e;
+    border-bottom: 1px solid black;
   }
   .tab {
     border: none;
     background: transparent;
-    color: #b4b2b2;
+    color: black;
     font-family: Open sans, sans-serif;
     flex-basis: 100%;
     display: flex;
@@ -94,13 +110,13 @@ header{
     padding: 30px 0;
     cursor: pointer;
   }
-  .tab:not(:nth-child(3), .tab.active-tab) {
-    border-right: 1px solid #ffffff3e;
+  .tab:not(:nth-child(6), .tab.active-tab) {
+    border-right: 1px solid black;
   }
   .tab:nth-child(1) {
     border-top-left-radius: 9px;
   }
-  .tab:nth-child(3) {
+  .tab:nth-child(6) {
     border-top-right-radius: 9px;
   }
   .tab-content {
@@ -121,7 +137,7 @@ header{
   
   /* Animations */
   .active-tab {
-    background-image: linear-gradient(45deg, rgb(63,63,230), rgb(233,103,233));
+    background-color: #070707;
     font-weight: bolder;
     color: #fff
   }

@@ -1,22 +1,21 @@
 [
     {
-      "logo": "Molecule Man",
-      "title": 29,
-      "img1": "Dan Jukes",
+      "logo": "img/2.jpg",
+      "title": "titre1",
+      "img1": "img/2.jpg",
       "description1": "img1",
-      "img2": "img2",
+      "img2": "img/2.jpg",
       "description2":"desc2",
       "link":"link"
     },
     {
-      "name": "img/1.jpg",
-      "age": 39,
-      "secretIdentity": "Jane Wilson",
-      "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
+      "logo": "img/1.jpg",
+      "title": "titre2",
+      "img1": "img/1.jpg",
+      "description1": "img1",
+      "img2": "img/1.jpg",
+      "description2":"desc2",
+      "link":"link"
     }
 ]
   
