@@ -6,19 +6,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
         <title>HR Developpement web et mobile</title>
         <link rel="stylesheet" href="Css/style.css">
+        <link rel="stylesheet" href="Css/form.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <form action="https://formspree.io/f/mayzvgkv" method="POST">
-            <label>
-                Your email:
-                <input type="email" name="email">
-            </label>
-            <label>
-                Your message:
-                <textarea name="message"></textarea>
-            </label>
-            <!-- your other form fields go here -->
-            <button type="submit">Send</button>
-        </form>
+        <div id="Content_container">
+            <header>
+                <!-- Logo -->
+                <figure id="logo">
+                    <img class="HR_logo" src="img/white_logo_dark_background.jpg" alt="Logo HR Développement Web et Mobile">
+                </figure>
+                <!-- Navigation -->
+                <nav class="nav_bar">      
+                    <ul class="nav_bar_list">
+                        <li><a href="index.html">Acceuil</a></li>
+                        <li><a href="#">A propos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <form action="https://formspree.io/f/mayzvgkv" method="POST">
+                <label>
+                    Votre Email:
+                    <input type="email" name="email" required/>
+                </label>
+                <label>
+                    Votre téléphone
+                    <input type ="tel" name="tel"/>
+                </label>
+                <label for="object">Choississez une catégorie : 
+                <select id="objets" name="objects">
+                  <option value="Création de site" selected>Création de site</option>
+                  <option value="Mise à jour d'un site">Mise à jour d'un site</option>
+                  <option value="Création d'une application mobile">Création d'une application mobile</option>
+                  <option value="Mise à jour d'une application mobile">Mise à jour d'une application mobile</option>
+                </select>
+                </label>
+                <label>
+                    Explication de la mission : 
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Envoyer</button>
+            </form>
+
+            <footer>
+                <div class="footer_items">
+                    <!-- Logo Footer -->
+                    <!-- Logo -->
+                    <img class="HR_footer_logo" src="img/white_logo_dark_background.jpg" alt="Logo HR Développement Web et Mobile">
+                    <!-- Contact -->
+                    <div class="contact">
+                        <a href="contact.html">Me contacter</a>
+                    </div>
+                    <!-- A propos -->
+                    <div class="about">
+                        <a href="#">A propos</a>
+                    </div>
+                </div>
+                <div class="footer_credit">
+                    <span>© HR Développement Web et Mobile - 2023</span>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>

@@ -134,6 +134,10 @@ header{
   .tab-content h3 {
     font-size: clamp(20px, 2vw, 25px);
   }
+
+  .Explication{
+    margin-bottom: 25px;
+  }
   
   /* Animations */
   .active-tab {

@@ -1,0 +1,46 @@
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededed;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 90%;
+    font-size: 25px;
+}
+
+form label input,select,textarea{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+form button:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    
+}
