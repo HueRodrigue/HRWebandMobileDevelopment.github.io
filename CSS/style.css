@@ -89,8 +89,6 @@ header{
     border-radius: 10px;
     border: 1px solid black;
     color: black;
-    display: grid;
-    grid-template-rows: min-content 1fr;
   }
   .tabs-btn-container {
     display: flex;
@@ -163,7 +161,7 @@ header{
 
   #tab-content-part1 h3{
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 40px;
   }
 
   #tab-content-part2 p,#tab-content-part3 p{
@@ -224,4 +222,66 @@ footer div a {
 .footer_credit{
     justify-content: center;
     align-content: center;
+}
+
+/*Parametre page about*/
+
+.competences h2, .tarif h2, .profile h1{
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+  font-size: 40px;
+  font-weight: bolder;
+  border: solid 1px;
+  border-color: #070707
+}
+
+.profile-sub  {
+  margin: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.competence-list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.competence-list ul li{
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:50px;
+  padding-right: 50px;
+  background-color: #ededed;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+
+.tarifCard{
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+
+}
+
+.tarifCard-Desc{
+  background-color:#ededed ;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+#price{
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+
 }
