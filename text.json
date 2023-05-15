@@ -1,57 +1,57 @@
 [
     {
-      "logo": "img/2.jpg",
-      "title": "titre1",
-      "img1": "img/2.jpg",
-      "description1": "img1",
-      "img2": "img/2.jpg",
-      "description2":"desc2",
-      "link":"link"
+      "logo": "img/booki/booki_logo.png",
+      "title": "BOOKI",
+      "img1": "img/booki/html_logo.png",
+      "description1": "Booki, une petite entreprise propose un outil de planification de vacances.",
+      "img2": "img/booki/css_logo.png",
+      "description2":"Créer un prototype en intégrant le modèle en HTML et CSS (responsive)",
+      "link":"#"
     },
     {
-      "logo": "img/1.jpg",
-      "title": "titre2",
-      "img1": "img/1.jpg",
-      "description1": "img1",
-      "img2": "img/1.jpg",
-      "description2":"desc2",
-      "link":"link"
+      "logo": "img/kanap/kanap_logo.png",
+      "title": "KANAP",
+      "img1": "img/kanap/js_logo.png",
+      "description1": "Utilisation de l’API (GET, POST) et gestion du DOM (ajout, suppression et modification d’éléments)",
+      "img2": "img/kanap/local-storage.jpg",
+      "description2":"Utilisation de URLSearchParams et Utilisation de localStorage",
+      "link":"https://github.com/HueRodrigue/HueRodrigue_P5-Dev-Web-Kanap"
     },
     {
-      "logo": "img/2.jpg",
-      "title": "titre1",
-      "img1": "img/2.jpg",
-      "description1": "img1",
-      "img2": "img/2.jpg",
-      "description2":"desc2",
-      "link":"link"
+      "logo": "img/kasa/kasa_logo.png",
+      "title": "KASA",
+      "img1": "img/kasa/react_logo.png",
+      "description1": "Initialiser une application avec Create React App et configurer la navigation entre les pages de l'application avec React Router",
+      "img2": "img/kasa/sass_logo.png",
+      "description2":"Développer des éléments de l'interface d'un site web grâce à des composants React et gestion du style avec Sass",
+      "link":"https://github.com/HueRodrigue/HueRodrigue_P7_Kasa"
     },
     {
-      "logo": "img/2.jpg",
-      "title": "titre1",
-      "img1": "img/2.jpg",
-      "description1": "img1",
-      "img2": "img/2.jpg",
-      "description2":"desc2",
-      "link":"link"
+      "logo": "img/panthere/panthere_logo.png",
+      "title": "LA PANTHERE",
+      "img1": "img/panthere/opti_logo.png",
+      "description1": "Le but a été d'optimiser le référencement du site (SEO) en améliorant ses performances techniques pour augmenter le trafic grâce au référencement naturel. Deplus ce site devait être conforme a des règles d'accessibilité ( contraste, taille des polices, ect.. ) ",
+      "img2": "img/panthere/w3c_logo.png",
+      "description2":"Un rapport d’optimisation comprenant une comparaison des résultats (y compris de la vitesse de chargement et l’accessibilité) a été mis en place",
+      "link":"https://github.com/HueRodrigue/HueRodrigue_P4.github.io"
     },
     {
-      "logo": "img/2.jpg",
-      "title": "titre1",
-      "img1": "img/2.jpg",
-      "description1": "img1",
-      "img2": "img/2.jpg",
-      "description2":"desc2",
-      "link":"link"
+      "logo": "img/ohmyfood/ohmyfood_logo.png",
+      "title": "OHMYFOOD",
+      "img1": "img/ohmyfood/sass_logo.png",
+      "description1": "Développement d'un site proposant le menu de 4 grands restaurants parisiens. Permettre la réservation en ligne et la composition de menus.",
+      "img2": "img/ohmyfood/responsive_logo.png",
+      "description2":"Utilisation de Sass et de son architecture en cascade. Le but étant que le site soit responsive en y incorporant des animations au survols et des animations d'apparition de contenu. Enfin il a été demandé un loading spinner au chargement des pages. ",
+      "link":"https://github.com/HueRodrigue/HueRodrigue_P3.github.io"
     },
     {
-      "logo": "img/2.jpg",
-      "title": "titre1",
-      "img1": "img/2.jpg",
-      "description1": "img1",
-      "img2": "img/2.jpg",
-      "description2":"desc2",
-      "link":"link"
+      "logo": "img/piiquante/piiquante_logo.png",
+      "title": "PIIQUANTE",
+      "img1": "img/piiquante/nodejs_logo.png",
+      "description1": "Objectif: permettre à l'internaute de s'inscrire sur le site et de pouvoir: \n - consulter toutes les sauces enregistrées,\n - créer des sauces, \n - modifier les sauces qu'il a créé, \n- supprimer les sauces qu'il a crée, \n- liker ou disliker les sauces enregistrées sur le site.",
+      "img2": "img/piiquante/mongodb_logo.png",
+      "description2":"Sécurité mise en place : \n- Hashage du mot de passe utilisateur avec BCRYPT \n- Cryptage des emails utilisateurs dans la base de données avec CRYPTO-JS \n - Manupulation sécurisée de la base de donnée avec MONGOOSE \n- Vérification que l'email utilisateur soit unique dans la base de données avec MONGOOSE-UNIQUE-VALIDATOR\n - Utilisation de variables d'environnement pour les données sensibles avec DOTENV \n- Authentification de l'utilisateur par token avec JSONWEBTOKEN \n- Protection des headers avec HELMET \n ",
+      "link":"https://github.com/HueRodrigue/P6_Piiquante"
     }
 ]
   

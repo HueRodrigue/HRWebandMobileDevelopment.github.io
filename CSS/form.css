@@ -44,3 +44,7 @@ form button:hover{
     border: solid 2px black;
     
 }
+
+form textarea{
+    height: 300px;
+}
