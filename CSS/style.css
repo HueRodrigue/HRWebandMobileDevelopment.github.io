@@ -285,3 +285,102 @@ footer div a {
   text-align: center;
 
 }
+
+/*Tablette*/
+@media ( max-width : 991px) {
+  #Content_container{
+    margin: auto;
+    max-width: 991px;
+}
+
+#logo{
+  padding-left: 25px;
+  width: 200px;
+  height: 132px;
+}
+
+.nav_bar_list li a{
+  font-size: 15px;
+}
+
+.main-title h1{
+  font-size: 30px;
+}
+
+#tab-content-part1 h3{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.about,.contact{
+  font-size: 15px;
+}
+
+.HR_footer_logo{
+  width: 200px;
+  height: 132px;
+}
+
+.tarifCard-Desc{
+  background-color:#ededed ;
+  padding: 50px;
+}
+
+#price{ 
+  font-size: 20px;
+}
+
+.competence-list ul{
+  flex-direction: column;
+}
+}
+
+@media (max-width : 768px) {
+  #Content_container{
+    margin: auto;
+    max-width: 768px;
+}
+.nav_bar_list{
+  flex-direction: column;
+}
+
+.main-title h1{
+  font-size: 25px;
+}
+
+.tabs-btn-container {
+  flex-direction: column;
+}
+
+.tab{
+  border-bottom: 1px solid black;
+}
+
+.tab:nth-child(1) {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.tab:nth-child(6) {
+  border-top-right-radius: 0px;
+}
+
+#tab-content-part1 img, #tab-content-part2 img,#tab-content-part3 img, #tab-content-part4 img{
+  width: 100px;
+  height: 60px;
+}
+
+#tab-content-part1 h3{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+#tab-content-part2 p,#tab-content-part3 p{
+  font-size: 8px;
+}
+
+.tarifCard{
+  flex-direction: column;
+
+}
+}

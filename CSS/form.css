@@ -52,3 +52,10 @@ form button:hover{
 form textarea{
     height: 300px;
 }
+
+/*Tablette*/
+@media ( max-width : 768px) {
+    form label{
+        font-size: 15px;
+    }
+}

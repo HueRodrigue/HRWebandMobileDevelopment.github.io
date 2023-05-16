@@ -27,6 +27,7 @@
 
 .element{
     height: 700px;
+    width: 1400px;
     flex: 1 0 100%;
     position: relative;
 }
@@ -44,4 +45,26 @@
     background-color: black;
     color: white;
     padding: 30px;
+}
+
+/*Tablette*/
+@media ( max-width : 991px) {
+
+    .element{
+        height: 350px;
+        flex: 1 0 100%;
+        position: relative;
+    }
+}
+
+@media ( max-width : 768px) {
+
+    .element{
+        height: 220px;
+        flex: 1 0 100%;
+        position: relative;
+    }
+    .caption{
+        font-size: 10px;
+    }
 }
